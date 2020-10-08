@@ -1,0 +1,71 @@
+.order-options {
+    height: 100px;
+    width: 30%;
+    float: left;
+    padding-left: 50px;
+    .pickup{
+        width: 50%;
+        text-align: center;
+        float: left;
+        line-height: 0.3;
+        padding-top: 10px;
+        cursor: pointer;
+    }
+
+    .delivery{
+        width: 50%;
+        float: left;
+        padding: 30px 10px;
+
+
+        .change-btn{
+            padding: 8px 10px;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+            font-size: 0.75rem;
+            margin-right: 15px;
+            cursor: pointer;
+        }
+        
+        .deliver-btn{
+            cursor: pointer;
+        }
+        @media screen and (max-width: 550px){
+            .deliver-btn{
+                display: none;
+            }
+          }
+    }
+
+    .gold{
+        color: #f79f1f;
+    }
+
+    .gray{
+        color: #a5a5a5;
+    }
+
+  }
+
+  
+  @media screen and (max-width: 1660px){
+    .order-options {
+        width: 40%;
+    }
+  }
+
+  @media screen and (max-width: 1250px){
+    .order-options {
+        width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .order-options {
+        text-align: center;
+        width: 100%;
+    }
+  }
+  
+  

@@ -1,0 +1,130 @@
+.menu-preview {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  
+    .title {
+      font-size: 1.3rem;
+      margin-bottom: 25px;
+      margin-left: 14px;
+      margin-right: 14px;
+    }
+  
+    .preview {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .gEIJqc {
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        font-size: 1.6em;
+        background-color: rgb(2, 103, 100);
+        color: white;
+        border-radius: 50%;
+        border: none;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        line-height: 50px;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .gEIJqc:hover:enabled, .gEIJqc:focus:enabled {
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        color: #fff;
+        background-color: rgb(2, 103, 100);
+        box-shadow: 0 0 2px 0 #333;
+    }
+
+    .fptlcG:disabled {
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        visibility: hidden;
+    }
+
+    .fptlcG {
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        font-size: 1.6em;
+        background-color:  rgb(2, 103, 100);
+        box-shadow: 0 0 2px 0px #333;
+        border-radius: 50%;
+        border: none;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+        line-height: 50px;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .guTiMg {
+        height: 330px!important;
+        display: -webki
+    }
+    
+    .rec-arrow-left{
+        position: absolute;
+        z-index: 1;
+    }
+
+    .rec-arrow-right{
+        position: absolute;
+        right: 50px;
+    }
+
+    .visible1{
+        display: block;
+    }
+
+    .visible2{
+        display: none;
+    }
+    
+    .visible3{
+        display: none;
+    }
+
+  }
+
+  @media screen and (max-width: 950px){
+    .menu-preview{
+        .visible1{
+            display: none;
+        }
+    
+        .visible2{
+            display: block;
+        }
+
+        .visible3{
+            display: none;
+        }
+    }
+  }
+
+  @media screen and (max-width: 600px){
+    .menu-preview{
+        .visible1{
+            display: none;
+        }
+    
+        .visible2{
+            display: none;
+        }
+
+        .visible3{
+            display: block;
+        }
+    }
+  }
+  

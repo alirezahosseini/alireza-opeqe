@@ -1,0 +1,41 @@
+.ready-order{
+    text-align: center;
+    border-top: 1px solid #dbdbdb;
+    margin-left: 65px;
+    margin-right: 65px;
+    padding-bottom: 150px;
+
+    .title{
+        font-weight: 100;
+    }
+
+    .text{
+        color: #000;
+        font-size: 1.1rem;
+    }
+
+   .pickup{
+        text-align: right;
+
+        .gold{
+            margin-right: 62px;   
+        }
+    }
+
+    .delivery{
+        text-align: left;
+    }
+    .order-options{
+        width: 100%;
+    }
+    
+} 
+
+@media screen and (max-width: 800px){
+    .ready-order{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 150px;
+    }
+  }
+

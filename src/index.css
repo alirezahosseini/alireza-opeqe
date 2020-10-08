@@ -1,0 +1,23 @@
+/* Body Part */
+@font-face{
+  font-family:"trebuchet";
+  src:url(font/trebuchet.woff)
+  format("woff");
+  font-display:swap
+}
+
+@font-face{
+  font-family:"trebuchet-italic";
+  src:url(font/trebuchet-italic.woff)
+  format("woff");
+  font-display:swap
+}
+body {
+  margin: 0;
+  font-family:trebuchet!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  text-align: left;
+  color: #000;
+}
